@@ -1,0 +1,35 @@
+/* إعدادات عامّة للقائمة */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #000;
+    border-radius: 8px;
+    padding: 10px 0;
+  }
+  
+  ul li {
+    margin: 0;
+  }
+  
+  /* تنسيق الروابط */
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  /* تأثير عند التمرير فوق الرابط */
+  ul li a:hover {
+    background-color: #4c4f52;
+    color: #fff;
+    transform: translateY(-2px);
+  }
+  
